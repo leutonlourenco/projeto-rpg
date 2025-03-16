@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 800px) {
+    body {
+        background-image: url(../imagens/capa-paisagem2.png);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+    
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        background-color: transparent;
+        display: contents;
+    }
+   
+    menu a {
+        display: inline-block;
+        padding: 30px;
+        color: white;
+        text-align: left;
+        font-size: 1.2em;
+        font-size: bold;
+        text-decoration: none;
+    }
+
+}
