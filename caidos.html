@@ -15,20 +15,38 @@
         text-indent: 20px;
        }
 
+       .conteiner {
+        position: relative;
+        border: 0px solid black;
+        max-width: 385px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.664);
+       }
+
        img {
         padding: 20px 0px;
         max-width: 350px;
-        display: block;
-        margin: auto;
+        display: block; 
        }
-       
-       .motivo-morte {
+
+       .death {
+        /*position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;*/
         margin-top: -25px;
         text-align: center;
         font-weight: lighter;
         font-style: italic;
-        font-size: 0.8em;
+        font-size: 1em;
        }
+       .death:hover {
+        background-color: rgba(0, 0, 0, 0.377);
+       }
+
     </style>
 </head>
 <body onresize="mudouTamanho()">
@@ -77,9 +95,11 @@
                 
         <p>Pelo resto de sua vida, desde então, John continuou sua pesquisa.</p>
 
-        <img src="imagens/john.jpeg" alt="Personagem John">
-        <p class="motivo-morte"> Surrado por crianças</p>
-            
+        <div class="conteiner">
+            <img src="imagens/john.jpeg" alt="Personagem John">
+            <p class="death"> Surrado por crianças</p>
+        </div>
+          
         <h2>Zet</h2>
 
         <p>
@@ -92,10 +112,12 @@
 
         <p>Ele não questionava o que o alquimista fazia com os materiais que ele trazia, mas, certo dia, após uma entrega especialmente grande, algo deu errado. O alquimista estava tentando criar um composto que, segundo ele, traria grande poder e riqueza. Mas a mistura dos suplementos roubados era instável. O laboratório começou a tremer e, antes que pudesse sair correndo, uma explosão devastadora engoliu o local.</p>
             
-        <p>Zet sobreviveu, mas o laboratório foi reduzido a cinzas, e seu chefe desapareceu. A explosão chamou a atenção das autoridades de Ahlen, que começaram a caçar todos os envolvidos com o alquimista. Agora, com uma dívida de sangue e sem ninguém para recorrer, Zet se tornou um fugitivo. Ele ainda vive nas sombras, usando suas habilidades de ladino para se manter longe dos olhos atentos da lei e de antigos inimigos, enquanto tenta encontrar respostas sobre o que realmente aconteceu naquele dia fatídico.</p>
+        <p>Zet sobreviveu, mas o laboratório foi reduzido a cinzas, e seu chefe desapareceu. A explosão chamou a atenção das autoridades de Ahlen, que começaram a caçar todos os envolvidos com o alquimista. Agora, com uma dívida de sangue e sem ninguém para recorrer, Zet se tornou um fugitivo. Ele ainda vive nas sombras, usando suas habilidades de ladino para se manter longe dos olhos atentos da lei e de antigos inimigos, enquanto tenta encontrar respostas sobre o que realmente aconteceu naquele fatídico dia.</p>
 
-        <img  src="imagens/zet.jpeg" alt="Imagem personagem Zet">
-        <p class="motivo-morte"> Ficou conhecido demais para um Ladino</p>
+        <div class="conteiner">
+            <img  src="imagens/zet.jpeg" alt="Imagem personagem Zet">
+            <p class="death"> Famaso para um ladino</p>
+        </div>
 
         <h2>Shiki-Two</h2>
 
@@ -113,8 +135,10 @@
 
         <p>Quase não houve tempo para se despedir de Linus. O espírito, coberto de luz branca, se separou do espírito envolto pela luz azul, cheio de esperança por uma nova vida, mas sem saber o que esperar. Quando Shikibu abriu seus olhos mecânicos, percebeu que o último capítulo de sua história estava prestes a começar. Shiki-Two, finalmente ressuscitada.</p>
 
-        <img src="imagens/Shiki.jpeg" alt="Personagem Shiki-Two">
-        <p class="motivo-morte"> Se explodiu junto da cidade</p>
+        <div class="conteiner">
+            <img src="imagens/Shiki.jpeg" alt="Personagem Shiki-Two">
+            <p class="death"> Mulher bomba</p>
+        </div>
         
         <h2>Graktor</h2>
 
@@ -136,8 +160,10 @@
 
         <p>Entre os membros da tribo, Graktor rapidamente se destacou, tanto em batalhas amistosas quanto em confrontos reais com tribos rivais e criaturas monstruosas. Sua força brutal e vigor inigualável o tornaram uma lenda crescente entre os bárbaros das Montanhas Sanguinárias. Em cada batalha, sua presença era avassaladora. Com seu machado colossal, uma herança deixada por seu pai, ele derrubava seus oponentes com uma ferocidade que poucos podiam igualar. Esse machado, com 8,8 metros de comprimento, era mais do que uma arma; era um símbolo de sua linhagem, do legado de seus pais e de seu destino de se tornar uma força brutal e imparável.</p>
 
-        <img src="imagens/Graktor.jpeg" alt="Personagem Graktor">
-        <p class="motivo-morte"> Era muito ignorante</p>
+        <div class="conteiner">
+            <img src="imagens/Graktor.jpeg" alt="Personagem Graktor">
+            <p class="death"> Ignorante</p>
+        </div>
 
         <h2>Edward</h2>
 
@@ -167,9 +193,11 @@
 
         <p>— Deve ser... tão legal ser um herói.</p>
 
-        <img src="imagens/Edward.jpeg" alt="Personagem Edward">
-        <p class="motivo-morte"> Sumiu sem mais nem menos</p>
-
+        <div class="conteiner">
+            <img src="imagens/Edward.jpeg" alt="Personagem Edward">
+            <p class="death"> Virou fumaça</p>
+        </div>
+        
         <h2>Yumi</h2>
 
         <p>
@@ -184,9 +212,12 @@
             
         <p>No entanto, talvez por ter perdido seu irmão gêmeo durante a tempestade de neve, talvez pela nevasca ter acontecido quando ele era criança, e durante o tumulto ter sido induzido pela sábia da tribo a um coma místico que o protegeu magicamente dos efeitos terríveis da tempestade de neve, Yumi adquiriu a estranha característica de se tornar uma forma infantil quando não está no território das Uivantes. A sábia previu que um dia, quando descobrisse o que é amadurecer de fato, ele poderia sair da região das montanhas, dessa vez como um adulto.</p>
  
-        <img src="imagens/yumi.jpeg" alt="Personagem Yumi">
-        <p class="motivo-morte"> Derreteu após sair das Uivantes</p>
-
+        <div id="last" class="conteiner">
+            <img src="imagens/yumi.jpeg" alt="Personagem Yumi">
+            <p id="last-p" class="death"> Virou picolé</p>
+        </div>
+        <br>
+        
     </main>
     <script>
         function mudouTamanho() {
