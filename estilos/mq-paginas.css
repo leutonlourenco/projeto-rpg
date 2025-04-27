@@ -13,4 +13,13 @@
     main {
         width: 800px;
     }
+    .conteiner {
+        position: relative;
+        border: 0px solid black;
+        max-width: 385px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.664);
+    }
 }
