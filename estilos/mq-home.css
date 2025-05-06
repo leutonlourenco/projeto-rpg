@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/*TELA GRANDE*/
 @media screen and (min-width: 800px) {
     body {
         background-image: url(../imagens/capa-paisagem2.png);
