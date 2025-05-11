@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*MOBILE FIRST*/
+/*MOBILE FIRST(TELA PEQUENA)*/
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
 
 :root {
@@ -19,13 +19,13 @@ body, html {
 
 header {
     background-color: rgb(61, 58, 58);
-    padding: 15px;
+    padding: 10px;
 }
 
 header > h1 {
     color: white;
     font-family: var(--font-titulos);
-    font-size: 3em;
+    font-size: 2.8em;
     font-weight: bold;
     text-align: center;
 }
@@ -35,7 +35,7 @@ span#burguer {
     display: block;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
  
 span#burguer:hover {
@@ -80,7 +80,7 @@ main > h1 {
     font-size: 2.2em;
     font-weight: lighter;
     text-indent: 15px;
-    padding-top: 10px;
+    padding: 7px;
 }
 
 main p {
@@ -88,7 +88,7 @@ main p {
     text-align: justify;
     font-size: 1em;
     line-height: 1.7em;
-    padding: 4px 17px;
+    padding: 7px 17px;
 }
 
 main h2 {
@@ -97,6 +97,7 @@ main h2 {
     font-size: 1.8em;
     font-weight: lighter;
     text-indent: 20px;
+    padding: 10px;
 }
 
 main h3 {
@@ -106,15 +107,44 @@ main h3 {
     font-size: 1.4em;
     font-weight: lighter;
     padding-left: 5px;
-    margin: 15px 10px;
+    margin: 8px 10px;
 }
 
-
-main img {/*Configurações da página Tokusatusu*/
+main > .img-hakkeshu {/*Configurações da página Hakkeshu*/
     width: 95%;
     display: block;
     margin: auto;
 }
+
+main > .img-pers {/*Configurações da página Personagens*/
+    position: relative;
+    border: 0px solid black;
+    width: 320px;
+    height: 485px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    box-shadow: 5px 5px 8px rgba(12, 4, 4, 0.849);
+}
+div.descricao {
+    background-image: linear-gradient(to right, rgb(119, 111, 111),transparent);
+    font-style: italic;
+    font-size: 1em;
+    color: white;
+}
+main > .img-caidos {/*Configurações da página Caídos*/
+    position: relative;
+    border: 0px solid black;
+    width: 320px;
+    height: 485px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    box-shadow: 5px 5px 8px rgba(12, 4, 4, 0.849);
+}   
 
 .link-externo {
     padding-bottom: 10px;
