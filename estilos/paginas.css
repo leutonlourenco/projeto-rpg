@@ -127,11 +127,17 @@ main > .img-pers {/*Configurações da página Personagens*/
     padding-left: 10px;
     box-shadow: 5px 5px 8px rgba(12, 4, 4, 0.849);
 }
-div.descricao {
-    background-image: linear-gradient(to right, rgb(119, 111, 111),transparent);
+div.descricao {/*descrição dos personagens*/
+    background-image: linear-gradient(to right, rgb(66, 66, 66),transparent);
     font-style: italic;
     font-size: 1em;
-    color: white;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+div.descricao > p {/*descrição dos personagens*/
+    line-height: 7px;
+    padding-top: 8.5px;
+    padding-bottom: 8.5px;
 }
 main > .img-caidos {/*Configurações da página Caídos*/
     position: relative;
