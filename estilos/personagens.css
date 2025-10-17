@@ -66,7 +66,7 @@ menu a:hover {
 }
 main {
     background-color: white; 
-    width: 85vw;
+    width: 90vw;
     margin: auto;
     margin-top: 1rem;
     border-radius: 20px 20px 20px 20px;
@@ -89,25 +89,21 @@ main h2 {
     padding: 1rem;
 }
 
-div.descricao {/*descrição dos personagens*/
-    background-image: linear-gradient(to right, rgb(66, 66, 66),transparent);
-    font-style: italic;
-    font-size: 1em;
-    color: rgb(255, 255, 255);
-    margin-top: 1rem;
-    margin-left: 10px;
-}
-
 div.descricao > p {/*descrição dos personagens*/
     line-height: 7px;
     padding-top: 8.5px;
     padding-bottom: 8.5px;
 }
 
-.img-caidos {
+.personagens {
+    background-color: #ffffff;
+    box-shadow: 1px 1px 6px rgb(29, 28, 28);
+    margin-bottom: 3rem;
+}
+.img-personagem {
     border: 0px solid black;
     width: 80%;
-    height: 85vh;
+    height: 80vh;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -118,14 +114,7 @@ img {
     width: 98%;
     height: 77vh;
     margin-top: .5rem;
-} 
-
-.personagens {
-    background-color: #ffffff;
-    box-shadow: 1px 1px 6px rgb(29, 28, 28);
-    margin-bottom: 3rem;
 }
-
 .link-externo {
     padding-bottom: 10px;
     font-size: 0.8em;
