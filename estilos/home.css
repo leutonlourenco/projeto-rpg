@@ -50,7 +50,7 @@ body, html {
 /*MODIFICAÇÕES NAS DIVS*/
 .divUm, .divDois, .divTres {
     width: 85vw;
-    height: 90vh;
+    height: 80vh;
     margin-top: 4rem;
     text-align: center;
     background-color: antiquewhite;
@@ -59,8 +59,13 @@ body, html {
 /*MODIFICAÇÕES NAS IMAGENS*/
 .img {
     width: 80vw;
-    height: 60vh;
+    height: 50vh;
     margin-top: 0.7rem;
+}
+h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
 }
 p {
     padding: .4rem;
@@ -98,7 +103,7 @@ footer {
         height: 50vh;
     }
 }
-
+/*
 @media screen and () {
     .conteiner {
         display: flex;
@@ -119,3 +124,4 @@ footer {
         height: 50vh;
     }
 }
+*/
