@@ -50,7 +50,7 @@ body, html {
 /*MODIFICAÇÕES NAS DIVS*/
 .divUm, .divDois, .divTres {
     width: 85vw;
-    height: 60vh;
+    height: 55vh;
     margin-top: 4rem;
     text-align: center;
     background-color: antiquewhite;
@@ -63,12 +63,12 @@ body, html {
     margin-top: 0.7rem;
 }
 h3 {
-    margin: 1rem;
+    margin: 0.5rem;
     font-size: 1.5rem;
     font-weight: bolder;
 }
-p {
-    padding: .4rem;
+.conteiner p {
+    padding: .5rem;
 }
 a {
     text-decoration: none;
