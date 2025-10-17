@@ -1,74 +1,121 @@
 @charset "UTF-8";
-/*MOBILE FIRST(TELA PEQUENA)*/
-@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
-
-:root {
-    --font-texto: Arial, Helvetica, sans-serif;
-    --font-titulos: "Pirata One", system-ui;
-}
-
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-html, body {
-    width: 100vw;
-    height: 100vh;
-    background-color:rgb(167, 157, 157);
+body, html {
+    object-fit: contain;
+    background-image: linear-gradient(to top, rgb(28, 71, 126),rgb(0, 0, 0));
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-    background-image: url(../imagens/capa-retrato.png);
-    background-position: center bottom;
+    height: 100vh;
+    overflow-x: hidden;
 }
-
-
-
-span#burguer {
-    background-color: rgb(48, 48, 48);
-    display: block;
-    color: white;
+.hero {
+    width: 100vw;
+    height: 12rem;
+    padding-top: 2rem;
     text-align: center;
-    padding: 10px;
 }
- 
-span#burguer:hover {
-    background-color: white;
-    color: black;
-    cursor: pointer;
+.hero h1 {
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    letter-spacing: 4px;
 }
-
-menu {
-    display: none;
-    background-color: rgb(82, 77, 77);
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.699);
-    padding: 5px;
-}
-
-menu a {
-    display: block;
-    padding: 5px;
-    color: white;
+.hero p {
+    font-size: 1.2rem;
     text-align: center;
-    font-size: 1.2em;
-    font-size: bold;
+    margin: 1.6rem;
+    color: #fff;
+    margin-top: 1rem;
+}
+.hero hr {
+    width: 50vw;
+    height: 0.2rem;
+    border: none;
+    background-color: rgb(6, 207, 6);
+    margin: auto;
+    margin-top: 2rem;
+}
+/*MODIFICAÇÕES NO CONTEINER*/
+.conteiner {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    flex-direction: column;
+}
+/*MODIFICAÇÕES NAS DIVS*/
+.divUm, .divDois, .divTres {
+    width: 85vw;
+    height: 90vh;
+    margin-top: 4rem;
+    text-align: center;
+    background-color: antiquewhite;
+    box-shadow: 5px 5px 8px rgba(12, 4, 4, 0.849);
+}
+/*MODIFICAÇÕES NAS IMAGENS*/
+.img {
+    width: 80vw;
+    height: 60vh;
+    margin-top: 0.7rem;
+}
+p {
+    padding: .4rem;
+}
+a {
     text-decoration: none;
+    color: rgb(66, 61, 61);
 }
-
-menu a:hover {
-    color: rgb(163, 155, 155);
-    text-decoration: dashed;
-
+a:hover {
+    color: blue;
 }
 
 footer {
-    background-color:rgb(122, 109, 109);
-    margin-top: 15px;
-    padding: 5px;
+    height: 2rem;
+    font-size: 1.1rem;
     text-align: center;
-    font-weight: bold;
+    align-content: center;
+    margin-top: 1rem;
+    background-color: rgb(189, 189, 206);
 }
 
-footer  a {
-    text-decoration: none;
+@media screen and (min-width: 599px) {
+    .divUm, .divDois, .divTres {
+        margin-top: -.6rem;
+        width: 26.2vw;
+        height: 75vh;
+        margin-bottom: 2rem;
+    }
+    .hero p {
+        font-size: 1rem;
+        margin: 3rem;
+    }
+    .img {
+        width: 25vw;
+        height: 50vh;
+    }
+}
+
+@media screen and () {
+    .conteiner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .divUm, .divDois, .divTres {
+        margin-top: -.6rem;
+        width: 26.2vw;
+        height: 75vh;
+        margin-bottom: 2rem;
+    }
+    .hero p {
+        font-size: 1.4rem;
+    }
+    .img {
+        width: 25vw;
+        height: 50vh;
+    }
 }

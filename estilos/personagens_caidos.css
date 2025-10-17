@@ -66,20 +66,10 @@ menu a:hover {
 }
 main {
     background-color: white; 
-    width: 95vw;
+    width: 60vw;
     margin: auto;
-    margin-top: 8px;
-    border-radius: 10px 10px 10px 10px;
-    
-}
-
-main > h1 {
-    color:  rgb(99, 88, 88);
-    font-family: var(--font-titulos);
-    font-size: 2.2em;
-    font-weight: lighter;
-    text-indent: 15px;
-    padding: 7px;
+    margin-top: 1rem;
+    border-radius: 20px 20px 20px 20px;
 }
 
 main p {
@@ -92,52 +82,28 @@ main p {
 
 main h2 {
     color:  rgb(99, 88, 88);
+    text-align: center;
     font-family: var(--font-titulos);
-    font-size: 1.8em;
+    font-size: 2.5em;
     font-weight: lighter;
-    text-indent: 20px;
-    padding: 10px;
+    padding: 1rem;
 }
 
-main h3 {
-    color: white;
-    background-image: linear-gradient(to right, rgb(99, 88, 88),transparent);
-    font-family: var(--font-titulos);
-    font-size: 1.4em;
-    font-weight: lighter;
-    padding-left: 5px;
-    margin: 8px 10px;
-}
-
-main > .img-hakkeshu {/*Configurações da página Hakkeshu*/
-    width: 95%;
-    display: block;
-    margin: auto;
-}
-
-main > .img-pers {/*Configurações da página Personagens*/
-    position: relative;
-    border: 0px solid black;
-    width: 320px;
-    height: 485px;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-left: 10px;
-    box-shadow: 5px 5px 8px rgba(12, 4, 4, 0.849);
-}
 div.descricao {/*descrição dos personagens*/
     background-image: linear-gradient(to right, rgb(66, 66, 66),transparent);
     font-style: italic;
     font-size: 1em;
     color: rgb(255, 255, 255);
+    margin-top: 1rem;
     margin-left: 10px;
 }
+
 div.descricao > p {/*descrição dos personagens*/
     line-height: 7px;
     padding-top: 8.5px;
     padding-bottom: 8.5px;
 }
+
 main > .img-caidos {/*Configurações da página Caídos*/
     position: relative;
     border: 0px solid black;
@@ -152,7 +118,8 @@ main > .img-caidos {/*Configurações da página Caídos*/
 } 
 
 .personagens {
-    background-color: #dccfcf;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 6px rgb(29, 28, 28);
     margin-bottom: 3rem;
 }
 
