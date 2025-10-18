@@ -91,8 +91,8 @@ main h2 {
 
 div.descricao > p {/*descrição dos personagens*/
     line-height: 7px;
-    padding-top: 8.5px;
-    padding-bottom: 8.5px;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
 }
 
 .personagens {
@@ -103,16 +103,15 @@ div.descricao > p {/*descrição dos personagens*/
 .img-personagem {
     border: 0px solid black;
     width: 80%;
-    height: 80vh;
+    height: 73vh;
     margin: auto;
-    margin-top: 20px;
     margin-bottom: 20px;
     padding-left: 10px;
     box-shadow: 5px 5px 8px rgba(12, 4, 4, 0.849);
 }
 img {
     width: 98%;
-    height: 77vh;
+    height: 70vh;
     margin-top: .5rem;
 }
 .link-externo {
