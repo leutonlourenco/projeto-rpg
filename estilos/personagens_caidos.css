@@ -64,7 +64,7 @@ menu a:hover {
     text-decoration: dashed;
 
 }
-main {
+.conteiner {
     background-color: white; 
     width: 85vw;
     margin: auto;
@@ -72,7 +72,7 @@ main {
     border-radius: 20px 20px 20px 20px;
 }
 
-main p {
+.conteiner p {
     font-family: var(--font-texto);
     text-align: justify;
     font-size: 1em;
@@ -80,7 +80,7 @@ main p {
     padding: 7px 17px;
 }
 
-main h2 {
+.conteiner h2 {
     color:  rgb(99, 88, 88);
     text-align: center;
     font-family: var(--font-titulos);
@@ -107,23 +107,34 @@ div.descricao > p {/*descrição dos personagens*/
 .img-caidos {
     border: 0px solid black;
     width: 80%;
-    height: 85vh;
+    height: 68vh;
     margin: auto;
-    margin-top: 20px;
     margin-bottom: 20px;
     padding-left: 10px;
     box-shadow: 5px 5px 8px rgba(12, 4, 4, 0.849);
 }
 img {
     width: 98%;
-    height: 77vh;
+    height: 65vh;
     margin-top: .5rem;
-} 
+    margin-bottom: .4rem;
+}
 
 .personagens {
     background-color: #ffffff;
     box-shadow: 1px 1px 6px rgb(29, 28, 28);
     margin-bottom: 3rem;
+}
+
+.death {
+    margin-top: -13px;
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 1em;
+}
+.death:hover {
+    background-color: rgba(0, 0, 0, 0.377);
 }
 
 .link-externo {
@@ -160,4 +171,46 @@ a {/*links gerais*/
 
 footer  a {
     text-decoration: none;
+}
+
+@media screen and (min-width:600px) and (max-width: 940px){
+    span#burguer {
+        display: none;
+
+    }
+    menu {
+        display: block;
+        padding: 2px;
+        text-align: center;
+    }
+    menu a {
+        display: inline-block;
+    }
+    .conteiner {
+        width: 50vw;
+        margin: auto;
+        margin-top: 2rem;
+    }
+}
+@media screen and (min-width:941px){
+    span#burguer {
+        display: none;
+
+    }
+    menu {
+        display: block;
+        padding: 2px;
+        text-align: center;
+    }
+    menu a {
+        display: inline-block;
+    }
+    .conteiner {
+        width: 50vw;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .img-caidos {
+        width: 30vw;
+    }
 }

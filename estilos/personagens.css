@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: rgb(180, 176, 176);
 }
 
 header {
@@ -64,15 +64,14 @@ menu a:hover {
     text-decoration: dashed;
 
 }
-main {
-    background-color: white; 
+.conteiner {
     width: 90vw;
     margin: auto;
     margin-top: 1rem;
     border-radius: 20px 20px 20px 20px;
 }
 
-main p {
+.conteiner p {
     font-family: var(--font-texto);
     text-align: justify;
     font-size: 1em;
@@ -80,7 +79,7 @@ main p {
     padding: 7px 17px;
 }
 
-main h2 {
+.conteiner h2 {
     color:  rgb(99, 88, 88);
     text-align: center;
     font-family: var(--font-titulos);
@@ -103,16 +102,16 @@ div.descricao > p {/*descrição dos personagens*/
 .img-personagem {
     border: 0px solid black;
     width: 80%;
+    height: 68vh;
     margin: auto;
     margin-bottom: 20px;
     padding-left: 10px;
     box-shadow: 5px 5px 8px rgba(12, 4, 4, 0.849);
 }
 img {
-    object-fit: cover;
     width: 98%;
     height: 65vh;
-    margin-top: .6rem;
+    margin-top: .5rem;
     margin-bottom: .4rem;
 }
 .link-externo {
@@ -149,4 +148,76 @@ a {/*links gerais*/
 
 footer  a {
     text-decoration: none;
+}
+summary {
+    list-style: none;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width:501px) and (max-width: 768px){
+    span#burguer {
+        display: none;
+
+    }
+    menu {
+        display: block;
+        padding: 2px;
+        text-align: center;
+    }
+    menu a {
+        display: inline-block;
+    }
+    .conteiner {
+        width: 70vw;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .img-personagem {
+        width: 50vw;
+    }
+}
+@media screen and (min-width:769px) and (max-width: 980px){
+    span#burguer {
+        display: none;
+
+    }
+    menu {
+        display: block;
+        padding: 2px;
+        text-align: center;
+    }
+    menu a {
+        display: inline-block;
+    }
+    .conteiner {
+        width: 60vw;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .img-personagem {
+        width: 40vw;
+    }
+}
+@media screen and (min-width:981px) {
+    span#burguer {
+        display: none;
+
+    }
+    menu {
+        display: block;
+        padding: 2px;
+        text-align: center;
+    }
+    menu a {
+        display: inline-block;
+    }
+    .conteiner {
+        width: 60vw;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .img-personagem {
+        width: 30vw;
+    }
 }
