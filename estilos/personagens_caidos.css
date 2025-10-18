@@ -89,6 +89,12 @@ menu a:hover {
     padding: 1rem;
 }
 
+.personagens {
+    background-color: #ffffff;
+    box-shadow: 1px 1px 6px rgb(29, 28, 28);
+    margin-bottom: 1rem;
+}
+
 div.descricao {/*descrição dos personagens*/
     background-image: linear-gradient(to right, rgb(66, 66, 66),transparent);
     font-style: italic;
@@ -106,16 +112,16 @@ div.descricao > p {/*descrição dos personagens*/
 
 .img-caidos {
     border: 0px solid black;
-    width: 58%;
-    height: 57vh;
+    width: 80%;
+    height: 60vh;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
     padding-left: 10px;
     box-shadow: 5px 5px 8px rgba(12, 4, 4, 0.849);
 }
 img {
-    width: 96%;
-    height: 51vh;
+    width: 98%;
+    height: 54vh;
     margin-top: .5rem;
     margin-bottom: .4rem;
 }
@@ -132,6 +138,7 @@ img {
     font-weight: lighter;
     font-style: italic;
     font-size: 1em;
+    margin-left: 2rem;
 }
 
 .link-externo {
@@ -168,6 +175,11 @@ a {/*links gerais*/
 
 footer  a {
     text-decoration: none;
+}
+summary {
+    list-style: none;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
 }
 
 @media screen and (min-width:600px) and (max-width: 940px){
