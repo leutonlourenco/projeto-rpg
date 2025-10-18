@@ -111,7 +111,7 @@ div.descricao > p {/*descrição dos personagens*/
 img {
     object-fit: cover;
     width: 98%;
-    height: 25rem;
+    height: 65vh;
     margin-top: .6rem;
     margin-bottom: .4rem;
 }
