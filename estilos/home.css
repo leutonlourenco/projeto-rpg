@@ -89,19 +89,27 @@ footer {
 }
 
 @media screen and (min-width: 599px) {
+    .conteiner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
     .divUm, .divDois, .divTres {
         margin-top: -.6rem;
         width: 26.2vw;
-        height: 75vh;
+        height: 62vh;
         margin-bottom: 2rem;
     }
     .hero p {
-        font-size: 1rem;
+        font-size: 1.3rem;
         margin: 3rem;
     }
     .img {
-        width: 25vw;
-        height: 50vh;
+        object-fit: cover;
+        width: 98%;
+        height: 42vh;
+        margin-top: 0.2rem;
     }
 }
 /*
