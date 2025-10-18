@@ -58,10 +58,11 @@ body, html {
 }
 /*MODIFICAÇÕES NAS IMAGENS*/
 .img {
-    object-fit: cover;
-    width: 98%;
+    width: 96%;
     height: 52vh;
-    margin-top: 0.2rem;
+    margin-top: 0.5rem;
+    box-shadow: 1px 2px 2px black;
+    border-radius: 2px 2px;
 }
 h3 {
     margin-top: .5rem;
