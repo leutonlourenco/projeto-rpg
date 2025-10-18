@@ -50,7 +50,7 @@ body, html {
 /*MODIFICAÇÕES NAS DIVS*/
 .divUm, .divDois, .divTres {
     width: 80%;
-    height: 60vh;
+    height: 66vh;
     margin-top: 4rem;
     text-align: center;
     background-color: antiquewhite;
@@ -58,8 +58,9 @@ body, html {
 }
 /*MODIFICAÇÕES NAS IMAGENS*/
 .img {
+    object-fit: cover;
     width: 98%;
-    height: 40vh;
+    height: 45vh;
     margin-top: 0.2rem;
 }
 h3 {
