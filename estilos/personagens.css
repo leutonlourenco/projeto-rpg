@@ -103,7 +103,6 @@ div.descricao > p {/*descrição dos personagens*/
 .img-personagem {
     border: 0px solid black;
     width: 80%;
-    height: 73vh;
     margin: auto;
     margin-bottom: 20px;
     padding-left: 10px;
@@ -111,8 +110,9 @@ div.descricao > p {/*descrição dos personagens*/
 }
 img {
     width: 98%;
-    height: 70vh;
-    margin-top: .5rem;
+    height: 69vh;
+    margin-top: .6rem;
+    margin-bottom: .4rem;
 }
 .link-externo {
     padding-bottom: 10px;
