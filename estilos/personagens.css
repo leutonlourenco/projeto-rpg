@@ -97,7 +97,7 @@ div.descricao > p {/*descrição dos personagens*/
 .personagens {
     background-color: #ffffff;
     box-shadow: 1px 1px 6px rgb(29, 28, 28);
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 .img-personagem {
     border: 0px solid black;
