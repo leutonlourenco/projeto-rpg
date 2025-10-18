@@ -109,8 +109,9 @@ div.descricao > p {/*descrição dos personagens*/
     box-shadow: 5px 5px 8px rgba(12, 4, 4, 0.849);
 }
 img {
+    object-fit: cover;
     width: 98%;
-    height: 69vh;
+    height: 25rem;
     margin-top: .6rem;
     margin-bottom: .4rem;
 }
