@@ -66,7 +66,7 @@ menu a:hover {
 }
 main {
     background-color: white; 
-    width: 95vw;
+    width: 92vw;
     margin: auto;
     margin-top: 8px;
     border-radius: 10px 10px 10px 10px;
@@ -137,18 +137,17 @@ main > .img-hakkeshu {/*Configurações da página Hakkeshu*/
 }
 
 footer {
-    background-color:rgb(122, 109, 109);
+    background-color:rgb(35, 34, 34);
+    color: white;
     margin-top: 15px;
+    font-size: 1.1rem;
     padding: 5px;
     text-align: center;
     font-weight: bold;
 }
 
-a {/*links gerais*/ 
-    text-decoration: none;
-}
-
 footer  a {
+    color: rgb(162, 157, 157);
     text-decoration: none;
 }
 
