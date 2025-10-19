@@ -49,8 +49,8 @@ body, html {
 }
 /*MODIFICAÇÕES NAS DIVS*/
 .divUm, .divDois, .divTres {
-    width: 60%;
-    height: 33vh;
+    width: 70%;
+    height: 30vh;
     margin-top: 2.5rem;
     text-align: center;
     background-color: antiquewhite;
@@ -78,7 +78,7 @@ a {
     color: rgb(66, 61, 61);
 }
 a:hover {
-    color: blue;
+    color: rgb(88, 85, 85);
 }
 
 footer {
