@@ -99,14 +99,14 @@ footer  a {
 
 @media screen and (min-width: 599px) {
     .conteiner {
-        height: 50vh;
+        height: 40vh;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
     }
     .divUm, .divDois, .divTres {
         width: 26.2vw;
-        height: 48vh;
+        height: 50vh;
         margin-bottom: 5rem;
     }
     .hero p {
@@ -120,7 +120,7 @@ footer  a {
         margin-top: 0.2rem;
     }
     footer {
-        margin-top: 4rem;
+        margin-top: 8.7rem;
     }
 }
 /*
