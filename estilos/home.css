@@ -99,26 +99,28 @@ footer  a {
 
 @media screen and (min-width: 599px) {
     .conteiner {
+        height: 50vh;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-
+        justify-content: space-evenly;
     }
     .divUm, .divDois, .divTres {
-        margin-top: -.6rem;
         width: 26.2vw;
-        height: 46vh;
-        margin-bottom: 2rem;
+        height: 48vh;
+        margin-bottom: 5rem;
     }
     .hero p {
         font-size: 1.3rem;
         margin: 1.5rem, 5rem, 2rem, 5rem;
     }
     .img {
-        object-fit: cover;
+        /*object-fit: cover;*/
         width: 98%;
         height: 42vh;
         margin-top: 0.2rem;
+    }
+    footer {
+        margin-top: 4rem;
     }
 }
 /*
