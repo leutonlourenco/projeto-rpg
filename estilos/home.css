@@ -44,25 +44,21 @@ body, html {
 .conteiner {
     display: flex;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 5rem;
     flex-direction: column;
 }
 /*MODIFICAÇÕES NAS DIVS*/
 .divUm, .divDois, .divTres {
     width: 70%;
     height: 30vh;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     text-align: center;
-    background-color: antiquewhite;
-    box-shadow: 5px 5px 8px rgba(12, 4, 4, 0.849);
     border-radius: 10px 10px 10px 10px;
 }
 /*MODIFICAÇÕES NAS IMAGENS*/
 .img {
-    width: 97%;
-    height: 28vh;
-    margin-top: .3rem;
-    box-shadow: 0px 3px 3px black;
+    width: 100%;
+    height: 30vh;
     border-radius: 10px;
 }
 .conteiner p {
@@ -101,7 +97,7 @@ footer  a {
     }
     .divUm, .divDois, .divTres {
         width: 26.2vw;
-        height: 48vh;
+        height: 45vh;
     }
     .hero p {
         font-size: 1.3rem;
@@ -109,9 +105,9 @@ footer  a {
     }
     .img {
         /*object-fit: cover;*/
-        width: 97%;
+        width: 100%;
         height: 46vh;
-        margin-top: 0.4rem;
+        margin-top: -.2rem;
     }
     footer {
         margin-top: 7.7rem;
