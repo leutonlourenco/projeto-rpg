@@ -12,10 +12,14 @@ body, html {
     background-size: cover;
     height: 100vh;
     overflow-x: hidden;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .hero {
     width: 100vw;
-    height: 12rem;
+    height: 25vh;
     padding-top: 2rem;
     text-align: center;
 }
@@ -43,15 +47,18 @@ body, html {
 /*MODIFICAÇÕES NO CONTEINER*/
 .conteiner {
     display: flex;
+    justify-content: center;
     align-items: center;
-    margin-top: 5rem;
+    height: 90vh;
+    margin-top: 11rem;
+    margin-bottom: 8rem;
     flex-direction: column;
 }
 /*MODIFICAÇÕES NAS DIVS*/
 .divUm, .divDois, .divTres {
     width: 80%;
     height: 30vh;
-    margin-top: 2rem;
+    margin-top: 3rem;
     text-align: center;
     border-radius: 10px 10px 10px 10px;
 }
@@ -73,9 +80,9 @@ a:hover {
 }
 
 footer {
+    width: 100%;
     background-color:rgb(35, 34, 34);
     color: white;
-    margin-top: 3rem;
     font-size: 1.1rem;
     padding: 5px;
     text-align: center;
@@ -87,17 +94,22 @@ footer  a {
     text-decoration: none;
 }
 
-@media screen and (min-width: 599px) {
+@media screen and (min-width:636px) and (max-width: 1226px){
+     body {
+        overflow-y: auto;
+    }
     .conteiner {
         margin-top: 3rem;
-        height: 40vh;
+        width: 60vw;
+        height: 90vh;
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20rem;
     }
     .divUm, .divDois, .divTres {
-        width: 26.2vw;
-        height: 45vh;
+        height: 50vh;
     }
     .hero p {
         font-size: 1.3rem;
@@ -105,26 +117,31 @@ footer  a {
     }
     .img {
         /*object-fit: cover;*/
-        width: 100%;
         height: 46vh;
         margin-top: -.2rem;
     }
     footer {
-        margin-top: 10.8rem;
+        margin-top: 15rem;
     }
 }
-/*
-@media screen and () {
+
+@media screen and (min-width: 1227px) {
+    body {
+        overflow-y: hidden;
+    }
+   
     .conteiner {
         display: flex;
+        height: 55vh;
         flex-direction: row;
         justify-content: space-around;
+        gap: 5rem;
+        margin-bottom: -2rem;
     }
     .divUm, .divDois, .divTres {
         margin-top: -.6rem;
         width: 26.2vw;
         height: 75vh;
-        margin-bottom: 2rem;
     }
     .hero p {
         font-size: 1.4rem;
@@ -133,5 +150,7 @@ footer  a {
         width: 25vw;
         height: 50vh;
     }
+    footer {
+        
+    }
 }
-*/
