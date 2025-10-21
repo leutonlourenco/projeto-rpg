@@ -93,7 +93,8 @@ menu a:hover {
 .personagens {
     background-color: #ffffff;
     box-shadow: 1px 1px 6px rgb(29, 28, 28);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 10px 10px 10px 10px;
 }
 
 div.descricao {/*descrição dos personagens*/
@@ -125,12 +126,6 @@ img {
     height: 51vh;
     margin-top: .5rem;
     margin-bottom: .4rem;
-}
-
-.personagens {
-    background-color: #ffffff;
-    box-shadow: 1px 1px 6px rgb(29, 28, 28);
-    margin-bottom: 1rem;
 }
 
 .link-externo {
@@ -203,9 +198,9 @@ summary {
     }
     .img-caidos {
         width: 30vw;
-        height: 52.5vh;
+        height: 60vh;
     }
     img {
-        height: 55.2vh;
+        height: 57.5vh;
     }
 }
