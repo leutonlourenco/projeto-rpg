@@ -95,7 +95,7 @@ footer  a {
     text-decoration: none;
 }
 
-@media screen and (min-width:636px) and (max-width: 1226px){
+@media screen and (min-width:636px) and (max-width: 1109px){
      body {
         overflow-y: auto;
     }
@@ -126,7 +126,7 @@ footer  a {
     }
 }
 
-@media screen and (min-width: 1227px) {
+@media screen and (min-width: 1110px) {
     body {
         overflow-y: hidden;
     }
@@ -140,9 +140,9 @@ footer  a {
         margin-bottom: -2rem;
     }
     .divUm, .divDois, .divTres {
-        margin-top: -.6rem;
         width: 26.2vw;
-        height: 75vh;
+        height: 95vh;
+        margin-bottom: -5rem;
     }
     .hero p {
         font-size: 1.4rem;
