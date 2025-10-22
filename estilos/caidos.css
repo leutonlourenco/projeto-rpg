@@ -115,7 +115,7 @@ div.descricao > p {/*descrição dos personagens*/
 .img-caidos {
     border: 0px solid black;
     width: 80%;
-    height: 54vh;
+    height: 55vh;
     margin: auto;
     margin-bottom: 1rem;
     padding-left: 10px;
@@ -197,10 +197,11 @@ summary {
         margin-top: 2rem;
     }
     .img-caidos {
-        width: 30vw;
-        height: 60vh;
+        width: 41vw;
+        height: 79vh;
     }
     img {
-        height: 57.5vh;
+        width: 98%;
+        height: 75vh;
     }
 }

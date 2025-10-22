@@ -183,11 +183,10 @@ summary {
     }
     .img-personagem {
         width: 41vw;
-        height: 79.5vh;
+        height: 77.4vh;
     }
     img {
-        margin-top: .6rem;
-        padding-left: 0.1rem;
-        height: 77vh;
+        width: 98%;
+        height: 75vh;
     }
 }
