@@ -95,7 +95,7 @@ footer  a {
     text-decoration: none;
 }
 
-@media screen and (min-width:636px) and (max-width: 900px){
+/*@media screen and (min-width:636px) and (max-width: 900px){
      body {
         overflow-y: auto;
     }
@@ -117,23 +117,25 @@ footer  a {
         margin: 1.5rem, 5rem, 2rem, 5rem;
     }
     .img {
-        /*object-fit: cover;*/
         height: 46vh;
         margin-top: -.2rem;
     }
     footer {
         margin-top: 15rem;
     }
-}
+}*/
 
-@media screen and (min-width: 901px) {
+@media screen and (min-width: 700px) {
     body {
         overflow-y: hidden;
+    }
+    .hero {
+        margin-top: 1rem;
     }
    
     .conteiner {
         display: flex;
-        height: 55vh;
+        height: 60vh;
         flex-direction: row;
         justify-content: space-around;
         gap: 5rem;
@@ -150,8 +152,5 @@ footer  a {
     .img {
         width: 25vw;
         height: 50vh;
-    }
-    footer {
-        
     }
 }
