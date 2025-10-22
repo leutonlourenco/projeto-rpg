@@ -95,7 +95,7 @@ footer  a {
     text-decoration: none;
 }
 
-@media screen and (min-width:636px) and (max-width: 1109px){
+@media screen and (min-width:636px) and (max-width: 1000px){
      body {
         overflow-y: auto;
     }
@@ -126,7 +126,7 @@ footer  a {
     }
 }
 
-@media screen and (min-width: 1110px) {
+@media screen and (min-width: 1001px) {
     body {
         overflow-y: hidden;
     }
