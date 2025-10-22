@@ -176,15 +176,16 @@ summary {
         display: inline-block;
     }
     .conteiner {
-        width: 50vw;
+        width: 60vw;
         margin: auto;
         margin-top: 2rem;
     }
     .img-personagem {
-        width: 30vw;
-        height: 60vh;
+        width: 41vw;
+        height: 67.5vh;
     }
     img {
-        height: 57.5vh;
+        margin-top: .7rem;
+        height: 64.5vh;
     }
 }
