@@ -12,7 +12,7 @@ body, html {
     background-size: cover;
     height: 100vh;
     overflow-x: hidden;
-    
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,14 +51,15 @@ body, html {
     align-items: center;
     height: 50vh;
     width: 95%;
-    margin-top: 6rem;
-    margin-bottom: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
     flex-direction: column;
 }
 /*MODIFICAÇÕES NAS DIVS*/
 .divUm, .divDois, .divTres {
     height: 100vh;
     width: 95%;
+    margin-bottom: -1rem;
     text-align: center;
     border-radius: 20px 20px 20px 20px;
 }
