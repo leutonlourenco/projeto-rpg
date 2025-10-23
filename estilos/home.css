@@ -51,7 +51,7 @@ body, html {
     align-items: center;
     height: 50vh;
     width: 95%;
-    margin-top: 7rem;
+    margin-top: 8.2rem;
     margin-bottom: 5rem;
     flex-direction: column;
 }
@@ -133,19 +133,21 @@ footer  a {
     }
     .hero {
         margin-top: 1rem;
+        margin-bottom: 2rem;
     }
    
     .conteiner {
         display: flex;
-        height: 60vh;
+        width: 100%;
+        height: 65vh;
         flex-direction: row;
-        justify-content: space-around;
-        gap: 5rem;
-        margin-bottom: -2rem;
+        align-items: center;
+        justify-content: space-;
+        margin-bottom: -6.5rem;
     }
     .divUm, .divDois, .divTres {
-        width: 26.2vw;
-        height: 95vh;
+        width: 100%;
+        height: 100vh;
         margin-bottom: -5rem;
     }
     .hero p {
@@ -154,5 +156,8 @@ footer  a {
     .img {
         width: 25vw;
         height: 50vh;
+    }
+    footer {
+        height: 10vh;
     }
 }
