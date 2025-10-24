@@ -51,16 +51,14 @@ body, html {
     height: 52vh;
     width: 95%;
     margin-top: 4rem;
-    margin-bottom: 3.3rem;
+    margin-bottom: 2.3rem;
     flex-direction: column;
 }
 /*MODIFICAÇÕES NAS DIVS*/
 .divUm, .divDois, .divTres {
     height: 100vh;
     width: 95%;
-    margin-bottom: -1rem;
     text-align: center;
-    border-radius: 20px 20px 20px 20px;
 }
 /*MODIFICAÇÕES NAS IMAGENS*/
 .img {
@@ -68,7 +66,6 @@ body, html {
     width: 95%;
     height: 20vh;
     padding: 1rem;
-    border-radius: 10px;
 }
 .conteiner p {
     padding: .5rem;
@@ -88,8 +85,8 @@ footer {
     font-size: 1.1rem;
     padding: 5px;
     text-align: center;
-    font-weight: bold;
-    margin-top: .3rem;
+    font-weight: normal;
+    margin-top: 1.3rem;
 }
 
 footer  a {
@@ -157,4 +154,5 @@ footer  a {
         width: 25vw;
         height: 50vh;
     }
+    
 }
