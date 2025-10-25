@@ -51,7 +51,7 @@ body, html {
     height: 52vh;
     width: 95%;
     margin-top: 4rem;
-    margin-bottom: 2.8rem;
+    margin-bottom: 2.5rem;
     flex-direction: column;
 }
 /*MODIFICAÇÕES NAS DIVS*/
@@ -70,6 +70,8 @@ body, html {
 .conteiner p {
     padding: .5rem;
 }
+
+/*
 a {
     text-decoration: none;
     color: rgb(66, 61, 61);
@@ -77,6 +79,7 @@ a {
 a:hover {
     color: rgb(88, 85, 85);
 }
+*/
 
 footer {
     width: 100%;
@@ -91,36 +94,6 @@ footer  a {
     color: rgb(162, 157, 157);
     text-decoration: none;
 }
-
-/*@media screen and (min-width:636px) and (max-width: 900px){
-     body {
-        overflow-y: auto;
-    }
-    .conteiner {
-        margin-top: 3rem;
-        width: 60vw;
-        height: 90vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 20rem;
-    }
-    .divUm, .divDois, .divTres {
-        height: 50vh;
-    }
-    .hero p {
-        font-size: 1.3rem;
-        margin: 1.5rem, 5rem, 2rem, 5rem;
-    }
-    .img {
-        height: 46vh;
-        margin-top: -.2rem;
-    }
-    footer {
-        margin-top: 15rem;
-    }
-}*/
 
 @media screen and (min-width: 700px) {
     body {
