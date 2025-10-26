@@ -63,28 +63,16 @@ body, html {
 .img {
     object-fit: cover;
     width: 95%;
-    height: 20vh;
+    height: 16vh;
     margin-bottom: 1rem;
     border-radius: 30px;
-    box-shadow: 2px 2px 2px 2px rgb(55, 54, 54);
+    box-shadow: 2px 2px 2px 2px rgba(138, 138, 138, 0.484);
 }
-.conteiner p {
-    padding: .5rem;
-}
-
-/*
-a {
-    text-decoration: none;
-    color: rgb(66, 61, 61);
-}
-a:hover {
-    color: rgb(88, 85, 85);
-}
-*/
 
 footer {
     width: 100%;
     color: rgb(239, 234, 234);
+    margin-top: -2rem;
     font-size: 1.1rem;
     padding: 5px;
     text-align: center;
