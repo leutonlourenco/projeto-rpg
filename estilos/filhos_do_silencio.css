@@ -110,7 +110,8 @@ main h3 {
     margin: 8px 10px;
 }
 
-main > .img-hakkeshu {/*Configurações da página Hakkeshu*/
+.img-FilhosSilencio {/*Configurações da página Hakkeshu*/
+    margin-top: 2rem;
     width: 95%;
     display: block;
     margin: auto;
