@@ -84,7 +84,45 @@ footer  a {
     text-decoration: none;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) and (max-width: 1080px){
+    body {
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .hero h1 {
+        margin-top: -.5rem;
+        margin-bottom: -.5rem;
+    }
+    .conteiner {
+        display: flex;
+        width: 50%;
+        padding: 5rem;
+        gap: 5rem;
+        margin-top: 6rem;
+        margin-bottom: 7rem;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .divUm, .divDois, .divTres {
+        margin-bottom: -5rem;
+    }
+    .hero {
+        margin-top: 1rem;
+    }
+    .hero p {
+        font-size: 1.4rem;
+    }
+    .img {
+        width: 25vw;
+        height: 50vh;
+    }
+    footer {
+        margin-top: -10rem;
+    }
+    
+}
+@media screen (min-width: 1001) {
     body {
         overflow-y: hidden;
         overflow-x: hidden;
@@ -116,5 +154,4 @@ footer  a {
     footer {
         margin-top: -10rem;
     }
-    
 }
